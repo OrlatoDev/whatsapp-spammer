@@ -9,12 +9,12 @@ layout = [[sg.Text("Name of contact or group to spam:", font=("Arial", 11))], [s
          [sg.Text("Message:", font=("Arial", 11))], [sg.Input(size=(50, 1))],
          [sg.Text("Number of messages to send (0 for ultimated):", font=("Arial", 11))], [sg.Input(size=(50, 1))],
          [sg.Text("Delay between each message (from 0.1):", font=("Arial", 11))], [sg.Input(size=(50, 1))],
-         [sg.Button("Log-in Whatsapp", font=("Arial", 11), size=(41, 1))], [sg.Button("Spam", font=("Arial", 11), size=(41, 1))]]
+         [sg.Button("Log-in Whatsapp", font=("Arial", 11), size=(38, 1))], [sg.Button("Spam", font=("Arial", 11), size=(38, 1))]]
 
-window = sg.Window("Whatsapp Spammer", layout)
+window = sg.Window("Whatsapp Spammer", layout, element_justification='c')
 
 def openWhatsapp():
-    browser = webdriver.Firefox(executable_path="./geckodriver-v0.29.1-win32/geckodriver.exe")
+    browser = webdriver.Chrome(executable_path="./chromedriver_win32/chromedriver.exe")
     browser.get("https://web.whatsapp.com")
     return browser
 
