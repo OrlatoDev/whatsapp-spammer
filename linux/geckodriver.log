@@ -1,0 +1,94 @@
+1623004495197	geckodriver	INFO	Listening on 127.0.0.1:38447
+1623004496011	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEe91X4"
+1623004515354	Marionette	INFO	Marionette enabled
+
+(firefox:27577): Gtk-WARNING **: 15:35:16.415: Theme directory actions/24 of theme Dracula has no size field
+
+
+(firefox:27577): Gtk-WARNING **: 15:35:16.416: Theme directory actions/32 of theme Dracula has no size field
+
+
+(firefox:27577): Gtk-WARNING **: 15:35:16.416: Theme directory actions/16@2x of theme Dracula has no size field
+
+
+(firefox:27577): Gtk-WARNING **: 15:35:16.416: Theme directory actions/22@2x of theme Dracula has no size field
+
+
+(firefox:27577): Gtk-WARNING **: 15:35:16.416: Theme directory actions/24@2x of theme Dracula has no size field
+
+
+(firefox:27577): Gtk-WARNING **: 15:35:16.416: Theme directory actions/32@2x of theme Dracula has no size field
+
+
+(firefox:27577): Gtk-WARNING **: 15:35:16.416: Theme directory actions/symbolic of theme Dracula has no size field
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEe91X4/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine mercadolivre@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623004575358	geckodriver	INFO	Listening on 127.0.0.1:41313
+1623004575382	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesjEDyj"
+1623004582414	Marionette	INFO	Marionette enabled
+
+(firefox:27960): Gtk-WARNING **: 15:36:22.466: Theme directory actions/24 of theme Dracula has no size field
+
+
+(firefox:27960): Gtk-WARNING **: 15:36:22.466: Theme directory actions/32 of theme Dracula has no size field
+
+
+(firefox:27960): Gtk-WARNING **: 15:36:22.466: Theme directory actions/16@2x of theme Dracula has no size field
+
+
+(firefox:27960): Gtk-WARNING **: 15:36:22.466: Theme directory actions/22@2x of theme Dracula has no size field
+
+
+(firefox:27960): Gtk-WARNING **: 15:36:22.466: Theme directory actions/24@2x of theme Dracula has no size field
+
+
+(firefox:27960): Gtk-WARNING **: 15:36:22.466: Theme directory actions/32@2x of theme Dracula has no size field
+
+
+(firefox:27960): Gtk-WARNING **: 15:36:22.466: Theme directory actions/symbolic of theme Dracula has no size field
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesjEDyj/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1623004596636	Marionette	INFO	Listening on port 37995
+1623004597091	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.c11753ab24650fdf3d67.js, line 17: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.c11753ab24650fdf3d67.js, line 17: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623004708971	Marionette	INFO	Stopped listening on port 37995
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
